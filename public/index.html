@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>API Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="container">post new</div>
+    <div id="container2">get one</div>
+    <div id="container3">get all</div>
+    <script src="/jquery/jquery.js"></script>
+    <style>
+	#container{
+	  border: 2px solid blue;
+	  padding:5px;
+	  margin:5px;
+	}
+	#container2{
+          border: 2px solid blue;                 padding:5px;                            margin:5px;                           }
+	#container3{
+          border: 2px solid red;                  padding:5px;                            margin:5px;                           }
+    </style>
+    <script>
+var url = "http://localhost:8080/api/4TKF6497KF95H03WG/XZS874H5DDS609KL/";  
+var person = {'firstname':'antony','secondname':'munuhe','surname':'ndarathi','email':'munenecj@yahoo.com','cellphone':'0722768898','password':'Nd@r@&h1','auth':'0gf46xHRe3a'};
+var id = "A6kdWpTHPeLhLayP";
+var App = {                               initialize:function(){
+   // this.createPerson();
+    this.getAllPerson();
+    this.getSinglePerson();
+  },
+  getAllPerson:function(){
+    $.ajax({                                  url: url+"person",                      type: "get",                            data: {'auth':'0i6fudj24'} ,            success: function (res) {                 alert(res);                             $('#container3').html(JSON.stringify(res));                                   },                                      error: function(jqXHR, textStatus, error) {                                         $('#container3').html(error);       }                                     });
+  },
+  createPerson:function(){
+    $.ajax({                                  url: url+"person",                      type: "post",                           data: person,
+      success: function (res) {                 alert(res);                             $('#container').html(JSON.stringify(res));                                    },                                      error: function(jqXHR, textStatus, error) {                                         $('#container').html(error);        }                                     });
+  },
+  getSinglePerson:function(){
+    $.ajax({                                  url: url+"person/A6kdWpTHPeLhLayP",
+      type: "get",
+      data: {'auth':'0i6fudj24'} ,            success: function (res) {                 alert(res);                             $('#container2').html(JSON.stringify(res));
+      },                                      error: function(jqXHR, textStatus, error) {                                         $('#container2').html(error);
+      }                                     });                                   }                                     };
+$(function() {
+  App.initialize();
+});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,7 @@
+{"firstname":"antony","secondname":"munuhe","surname":"ndarathi","email":"munene@gmail.com","cellphone":"0722768898","password":"Nd@r@&h1","_id":"A6kdWpTHPeLhLayP","createdAt":{"$$date":1498658650864},"updatedAt":{"$$date":1498658650864}}
+{"firstname":"antony","secondname":"munuhe","surname":"ndarathi","email":"munene@yahoo.com","cellphone":"0722768898","password":"Nd@r@&h1","_id":"DJ0LphlifxX6v6jC","createdAt":{"$$date":1498660142586},"updatedAt":{"$$date":1498660142586}}
+{"firstname":"antony","secondname":"munuhe","surname":"ndarathi","email":"munuheant@gmail.com","cellphone":"0722768898","password":"Nd@r@&h1","_id":"LOm5VT0A5OUgWNTr","createdAt":{"$$date":1498657113633},"updatedAt":{"$$date":1498657113633}}
+{"firstname":"antony","secondname":"munuhe","surname":"ndarathi","email":"mwaenecj@yahoo.com","cellphone":"0722768898","password":"Nd@r@&h1","_id":"NikKZYHkdwcVbfBw","createdAt":{"$$date":1498677527226},"updatedAt":{"$$date":1498677527226}}
+{"_id":"bLEBC50iZ9rqsnqD","createdAt":{"$$date":1498666883790},"updatedAt":{"$$date":1498666883790}}
+{"firstname":"antony","secondname":"munuhe","surname":"ndarathi","email":"munenecj@yahoo.com","cellphone":"0722768898","password":"Nd@r@&h1","_id":"ubuZOjesX8VoMXad","createdAt":{"$$date":1498661409402},"updatedAt":{"$$date":1498661409402}}
+{"$$indexCreated":{"fieldName":"email","unique":true,"sparse":false}}
